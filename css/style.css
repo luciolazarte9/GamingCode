@@ -1,0 +1,14 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.form-into-carrousel{
+    max-width: 100%;
+    z-index: 1;
+}
