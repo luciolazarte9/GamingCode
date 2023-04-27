@@ -1,7 +1,5 @@
-// Seleccionar todos los elementos de juego
 const juegosElements = document.querySelectorAll(".juego");
 
-// Crear un objeto para cada juego
 const juegosObj = Array.from(juegosElements).map(juegoElement => {
   const nombre = juegoElement.querySelector(".card-title").textContent;
   const imagen = juegoElement.querySelector(".card-img-top").src;
